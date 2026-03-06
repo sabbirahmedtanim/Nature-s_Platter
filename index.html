@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Platter</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <style>
+        .sora-regular {
+            font-family: "Sora", sans-serif;
+        }
+    </style>
+
+    <!-- Icone -->
+    <script src="https://kit.fontawesome.com/75634fe05d.js" crossorigin="anonymous"></script>
+
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="sora-regular mx-auto">
+    <header class="bg-linear-to-t from-[#EFEBE3] to-[#FFFFFF] flex flex-col items-center">
+
+        <!-- Navbar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="">
+                    <img class="btn btn-ghost" src="c2-assets/logo-header.png" alt="Nature's Platter logo">
+                </div>
+            </div>
+            <div class="navbar-center lg">
+                <a class="btn btn-ghost text-xl font-normal text-[#111111]">Product</a>
+                <a class="btn btn-ghost text-xl font-normal text-[#111111]">Services</a>
+                <a class="btn btn-ghost text-xl font-normal text-[#111111]">Contact us</a>
+            </div>
+            <div class="navbar-end gap-3">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
+                </button>
+                <button class="btn btn-ghost btn-circle">
+                    <div>
+                        <img src="c2-assets/trolly.png" alt="Shopping Trolly">
+                    </div>
+                </button>
+                <button  class="btn border-[#179800]">Login</button>
+                <button class="btn bg-[#179800] text-[#FFFFFF]">Register</button>
+            </div>
+        </div>
+
+        <!-- Hero section -->
+        <div class="text-[#111111] mt-23 max-w-208 text-center">
+
+            <h1 class="font-semibold text-5xl">Freshness <span class="text-[#179800]">You Can<br>Count</span> On, Prices You’ll Love!</h1>
+
+            <p class="font-normal text-xl mt-8">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        </div>
+
+        <div>
+            <img class="" src="c2-assets/hero-vegetables.png" alt="">
+        </div>
+        
+    </header>
+    <main class="">
+
+        <!-- Services -->
+        <div class="mt-35 mb-35 flex flex-col items-center">
+            <h2 class="mb-12 text-[#179800] font-semibold text-4xl">Services</h2>
+
+            <div class="flex gap-6">
+                <!-- Container 1 -->
+                <div class="card bg-base-100 w-96 shadow-sm bg-[#EFEBE3]">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="c2-assets/service.png"
+                        alt="24/7 services image"
+                        class="rounded-full bg-white p-1" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">24/7 Services</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Container 2 -->
+                <div class="card bg-base-100 w-96 shadow-sm bg-[#EFEBE3]">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="c2-assets/delivery.png"
+                        alt="Fast Delivery Image"
+                        class="rounded-full bg-white p-1" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Fast Delivery</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Container 3 -->
+                <div class="card bg-base-100 w-96 shadow-sm bg-[#EFEBE3]">
+                    <figure class="px-10 pt-10">
+                        <img
+                        src="c2-assets/healthy.png"
+                        alt="Healthy Products Image"
+                        class="p-1 rounded-full bg-white" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Healthy Products</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Products -->
+        <div class="bg-[#EFEBE3] pt-35 pb-35 flex flex-col items-center">
+            <h2 class="mb-12 font-semibold text-4xl text-[#179800]">Popular Products</h2>
+
+            <div class="flex gap-3">
+                <div class="card bg-base-100 w-96 shadow-sm bg-linear-to-br from-green-400 to-white">
+                    <div class="card-body max-w-80">
+                        <h2 class="card-title text-white">30% off</h2>
+                        <p>Discover a world of treats, toys, and essentials handpicked for</p>
+                        <div class="flex bg-white max-w-27 rounded-lg">
+                            <button class="py-3 px-5 font-medium">Buy Now</button>
+                        </div>
+                    </div>
+                    <figure>
+                        <img
+                        src="c2-assets/vegetable-offer.png"
+                        alt="Shoes" />
+                    </figure>
+                </div>
+
+                <div class=" grid grid-cols-3 gap-3">
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/onion.png"
+                            alt="Onion Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Onion 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/tomato.png"
+                            alt="Tomato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Tomato 500 g</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/potato.png"
+                            alt="potato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Potato 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/tomato.png"
+                            alt="tomato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Tomato 500 g</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/onion.png"
+                            alt="Onion Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Onion 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/tomato.png"
+                            alt="tomato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Tomato 500 g</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/onion.png"
+                            alt="Onion Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Onion 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/potato.png"
+                            alt="potato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Potato 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+                    <div class="card card-side bg-base-100 shadow-sm">
+                        <div class="mt-4 ml-2">
+                            <img
+                            src="c2-assets/potato.png"
+                            alt="potato Image" class="p-3 bg-[#EFEBE3] rounded-xl" />
+                        </div>
+                        <div class="card-body">
+                            <div class="flex gap-1">
+                                <i class="fa-solid fa-star text-[#FFC107]"></i>
+                                <p class="">4.5</p>
+                            </div>
+                            <h2 class="card-title">Potato 1 KG</h2>
+                            <p>$39.99</p>
+                        </div>
+                    </div>
+
+        
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrival & Offers -->
+        <div class="mt-35 mb-41 flex flex-col items-center">
+            <h2 class="mb-12 font-semibold text-4xl text-[#179800]">Arrival & Offers</h2>
+
+            <div class="flex gap-5">
+                <div class="bg-[#115414] flex pt-8 pl-10 rounded-3xl gap-12">
+                    <div class="flex flex-col gap-8">
+                        <div>
+                            <img src="c2-assets/dawat-logo.png" alt="Dawat Logo">
+                        </div>
+                        <button class="bg-[#63B76D] text-white font-normal text-2xl border-none px-8 rounded-xl">Cook Exotic Dishes</button>
+                        <h3 class="text-white font-bold text-4xl"><span class="font-normal">UP to</span> 20% OFF</h3>
+                    </div>
+                    <div>
+                        <img src="c2-assets/dawat-mock-up.png" alt=" Dawat Rice">
+                    </div>
+                </div>
+                
+                <div class="bg-[#102861] flex pt-8 pl-10 rounded-3xl gap-12">
+                    <div class="flex flex-col gap-8">
+                        <div>
+                            <img src="c2-assets/india-gate-logo.png" alt="India Gate Logo">
+                        </div>
+                        <button class="rounded-xl bg-[#2A4D97] text-white font-normal text-2xl border-none px-8">World’s No.1 Rice</button>
+                        <h3 class="text-white font-bold text-4xl"><span class="font-normal">UP to</span> 40% OFF</h3>
+                    </div>
+                    <div class="mr-3">
+                        <img src="c2-assets/india-gate-mock-up.png" alt="India Gate Rice">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Grocery News -->
+        <div class="bg-linear-to-t from-[#179800] from-50% to-white to-50%">
+            <div class="flex items-center max-w-330 rounded-3xl bg-[#EFEBE3] gap-36 mx-auto">
+                <div class="my-14 ml-25">
+                    <img src="c2-assets/vegetable-busket.png" alt="Trolly Image">
+                </div>
+                <div>
+                    <h3 class="font-semibold text-4xl mb-6">Get Grocery News!</h3>
+                    <p class="mb-9">Exclusive training tips, ticks, product deals and more.</p>
+                    <div class="mb-9">
+                        <label class="input validator">
+                            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <g
+                                stroke-linejoin="round"
+                                stroke-linecap="round"
+                                stroke-width="2.5"
+                                fill="none"
+                                stroke="currentColor"
+                                >
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                </g>
+                            </svg>
+                            <input type="email" placeholder="Enter email" required />
+                        </label>
+                        <div class="validator-hint hidden">Enter valid email address</div>
+                    </div>
+                    <button class="btn bg-[#179800] text-white font-normal">Subscribe</button>
+                    
+                </div>    
+            </div>
+        </div>
+    </main>
+    <footer class="bg-[#179800] py-35">
+        <div class="max-w-330 mx-auto flex">
+            <div>
+                <img src="c2-assets/logo-footer.png" alt="Nature's Platter Logo">
+                <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+            </div>
+
+            <div>
+                <a href="">Product</a>
+                <a href="">Services</a>
+                <a href="">Contact us</a>
+            </div>
+
+            <div>
+                <h6>Follow Us</h6>
+                <div>
+                    <i class="fa-brands fa-facebook text-white"></i>
+                    <i class="fa-brands fa-instagram text-white"></i>
+                    <i class="fa-brands fa-linkedin text-white"></i>
+                    <i class="fa-brands fa-youtube text-white"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
